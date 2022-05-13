@@ -16,7 +16,8 @@ stopalarm.addEventListener("click",(e) =>{
 });
 function playsong(e){
     e.preventDefault();
-
+    let donemessage=document.getElementById('donemessage');
+    donemessage.innerHTML='Done';
     let alarm=document.getElementById('alarm');
     let usertime=alarm.value;
     
